@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ADictionary</string>
+    <string name="label_back">Back</string>
+    <string name="label_search">Perform search</string>
+    <string name="search_word">Search Words</string>
+    <string name="cancel">"بازگشت"</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="expand_text">All the high-level animation APIs mentioned in the previous section are built on top of the foundation of the low-level animation APIs.
+
+The animate*AsState functions are the simplest APIs, that render an instant value change as an animation value. It is backed by Animatable, which is a coroutine-based API for animating a single value. updateTransition creates a transition object that can manage multiple animating values and run them based on a state change. rememberInfiniteTransition is similar, but it creates an infinite transition that can manage multiple animations that keep on running indefinitely. All of these APIs are composables except for Animatable, which means these animations can be created outside of composition.
+
+All of these APIs are based on the more fundamental Animation API. Though most apps will not interact directly with Animation, some of the customization capabilities for Animation are available through higher-level APIs. See Customize animations for more information on AnimationVector and AnimationSpec.</string>
+    <string name="title_second_app_name">English - Persian</string>
+    <string name="title_history">History</string>
+    <string name="clear_history">Clear All</string>
+    <string name="not_exist_history">کلمه ای موجود نیست</string>
+    <string name="title_define_screen_example">Example</string>
+    <string name="title_define_screen_definition">Definition</string>
+</resources>
